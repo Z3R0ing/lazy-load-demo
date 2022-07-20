@@ -77,4 +77,6 @@ Hibernate: select tasks0_.project_id as project_3_1_0_, tasks0_.id as id1_1_0_, 
 [Task(id=1, description=code, project=Project{id=1, name='demo'}), Task(id=2, description=deploy, project=Project{id=1, name='demo'})]
 ```
 
-It all means, that Lazy Loading can do extra query to database when it not obvious.
+The second query was called `project.getTasks()`.
+
+All of this means that lazy loading can make an extra request to the database when it's not obvious.
