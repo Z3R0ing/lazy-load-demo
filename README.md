@@ -10,7 +10,7 @@ Lazy loading is a pattern, that used to delay the initialization of an object as
 Look at entities classes
 
 ```java
-@Entity()
+@Entity
 public class Task {
 
     @Id
